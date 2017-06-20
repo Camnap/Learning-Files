@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospital Admissions Form</title>
+        <style>
+        h2
+            {color: cadetblue;
+             font-style: oblique;
+             text-decoration: underline
+            }
+        h3
+            {color:cadetblue;
+             font-style:normal; 
+             text-decoration: underline
+            }
+        label
+            {font-family: sans-serif;
+             font-weight: bold
+            }
+        form
+            {border: 1px solid black;
+             padding: 2px;
+             background-color: bisque     
+            }
+        </style>
+    </head>
+    
+    <body>
+        <H2>Scarborough Grace Hospital</H2>
+        <H3> Patient Admissions Information Form </H3>
+    <form method="Post" Action="#">
+    <table>
+        <tr>   
+            <td>
+                <label for="famiily name">Family Name</label>
+            </td>
+            <td>
+                <input type="text" id="Family Name"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="given name">Given name</label>
+            </td>
+            <td>
+                <input type="text" id="Given Name"/>
+            </td>
+        </tr>
+        <tr>
+             <td>
+                <label for="email address">Email Address<label/>
+            </td>
+            <td>
+                <input type="text" id="email address"
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Daytime Phone">Daytime Phone</label>
+            </td>
+            <td>
+                <input type="text" id="Daytime Phone"
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Street Address">Street Address</label>
+            </td>
+            <td>
+                <input type="text" id="Street Address"
+            </td>
+        <tr>
+            <td>
+                <label for="City">City</label>
+            </td>
+            <td>
+                <input type="Text" id="City"
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Province">Province</label>
+            </td>
+            <td>
+                <select>
+                    <option value="ON">Ontario</option>
+                    <option value="AB">Alberta</option>    
+                    <option value="MAN">Manitoba</option>
+                    <option value="NS">Nova Scottia</option>
+                    <option value="QC">Quebec</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="NF">Newfoundland</option>
+                    <option value="NT">Nunavut and Northwest Terr</option>
+                    <option value="YK">Yukon</option>
+                    <option value="PEI">Prince Edward Island</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Postal Code">Postal Code</label>
+            </td>
+            <td>
+                <input type="text" id="Postal Code"
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age</label>
+            </td>
+            <td>
+                <input type="number" id="age" min="0" max="125"
+            </td>            
+        </tr>    
+        <tr>
+            <td>
+                <label for="Date of Birth">Date of Birth</label>
+            </td>
+            <td>
+                <input type="date" id="DOB" name="DOB"
+            </td>
+        <tr>
+            <td>  
+                <label for="Gender">Gender</label>
+            </td>        
+            <td>
+                <input type="radio" name="sex" value="male" checked>male</br>
+                <input type="radio" name="sex" value="female">Female
+            </td>        
+        </tr>
+        <tr>
+            <td>
+                <label for="Health History">Health History</label>
+            </td>
+            <td>
+            <input type="checkbox" name="History" id="History" value="Heart Attack">Heart Attack</br>
+            <input type="checkbox" name="History" id="History" value="Stroke">Stroke</br>
+            <input type="checkbox" name="History" id="History" value="Erectile Dysfunction">Erectile Dysfuntion</br>
+            <input type="checkbox" name="History" id="History" value="Bad Attitude">Bad Attitude</br>
+            <input type="checkbox" name="History" id="History" value="Craniorectal Inversion">Craniorectal Inversion</br>
+            <input type="checkbox" name="History" id="History" value="Cyberchondria">Cyberchondria</br>
+            <input type="checkbox" name="History" id="History" value="Pneumoencephalopathy">Pneumoencephalopathy</br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </td>
+        </tr>
+    </table>    
+    </form>
+    </body>
+
+</html>
